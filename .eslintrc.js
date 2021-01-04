@@ -1,13 +1,14 @@
 module.exports = {
   extends: ['plugin:vue/vue3-essential', 'airbnb-base'],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 9,
     sourceType: 'module',
   },
   plugins: ['vue'],
   rules: {
     // 自己写一些想配置的规则
     'linebreak-style': 'off',
+    indent: ['error', 4],
   },
   overrides: [
     {
