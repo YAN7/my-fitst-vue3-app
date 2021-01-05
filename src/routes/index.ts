@@ -6,7 +6,7 @@ import Detail from '../pages/Detail/Index.vue'
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        components: App,
+        component: Home,
     },
     {
         path: '/home',

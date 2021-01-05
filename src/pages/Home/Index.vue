@@ -1,6 +1,6 @@
 <template>
-  <div>
-      {{text}}
+  <div class="home">
+      <router-link to='/detail'>detail</router-link>
   </div>
 </template>
 
@@ -18,5 +18,8 @@ export default defineComponent({
 </script>
 
 <style scoped lang="less">
-
+.home {
+    height: 100vh;
+    background: green;
+}
 </style>

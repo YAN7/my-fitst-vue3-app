@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='detail' @click="$router.back()">
       {{text}}
   </div>
 </template>
@@ -18,5 +18,8 @@ export default defineComponent({
 </script>
 
 <style scoped lang="less">
-
+.detail {
+    height: 100vh;
+    background: red;
+}
 </style>
