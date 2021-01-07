@@ -21,5 +21,7 @@ export default defineComponent({
 .detail {
     height: 100vh;
     background: red;
+     position: absolute;
+     width: 100%;
 }
 </style>
